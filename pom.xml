@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Final</groupId>
+  <artifactId>One</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>  
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
+        <maven.compiler.source>1.8</maven.compiler.source>  
+        <maven.compiler.target>1.8</maven.compiler.target>  
+    </properties>  
+
+    <dependencies>  
+
+    <!-- Latest Karate Version (Fixes Nashorn Issue) -->
+   <dependency>
+    <groupId>io.karatelabs</groupId>
+    <artifactId>karate-junit5</artifactId>
+    <version>1.5.1</version>
+    <scope>test</scope>
+</dependency>
+
+    <!-- Karate Core -->
+   <dependency>
+  <groupId>io.karatelabs</groupId>
+  <artifactId>karate-core</artifactId>
+  <version>1.5.1</version>
+  <classifier>all</classifier>
+  <scope>test</scope>
+</dependency>
+    </dependencies>
+
+</project>
